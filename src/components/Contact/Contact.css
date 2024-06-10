@@ -1,0 +1,88 @@
+#contactme {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.contactform {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 1rem;
+}
+
+.contacthead {
+  font-size: 60px;
+  font-weight: 100;
+  padding-top: 6rem;
+  margin-bottom: 1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.contactdes {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 100;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.name, .mail, .msg {
+  font-size: large;
+  width: 100%;
+  max-width: 500px;
+  margin: 0.5rem;
+  padding: 1rem;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(83, 71, 71);
+}
+
+.submit {
+  background-color: rgb(253, 253, 253);
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.link {
+  margin: 15px;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .contacthead {
+    font-size: 40px;
+    padding-top: 3rem;
+  }
+
+  .contactdes {
+    font-size: 14px;
+  }
+
+  .name, .mail, .msg {
+    font-size: medium;
+    padding: 0.75rem;
+  }
+
+  .submit {
+    width: 80px;
+    padding: 10px;
+  }
+}

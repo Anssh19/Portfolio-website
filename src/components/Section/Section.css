@@ -1,0 +1,123 @@
+/* Base styles */
+.main {
+  display: flex;
+  overflow: hidden;
+}
+
+.leftmain {
+  padding: 50px;
+  font-size: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 150px;
+}
+
+.hello {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.mainintro {
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.namemain {
+  font-size: 50px;
+  color: rgb(253, 249, 7);
+}
+
+.paramain {
+  font-size: 15px;
+  margin-top: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mainbtn {
+  background-color: rgb(253, 253, 253);
+  border-radius: 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 100px;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+.mainbtn:hover {
+  border-radius: 23px;
+  
+}
+
+.btnimg {
+  width: 35px;
+}
+
+.rightmain {
+  width: 300px;
+  margin: 100px 0px 50px 10px;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .leftmain {
+    padding: 30px;
+    font-size: 30px;
+    margin-left: 0;
+  }
+
+  .mainintro,
+  .namemain {
+    font-size: 40px;
+  }
+
+  .paramain {
+    font-size: 14px;
+  }
+
+  .rightmain {
+    margin: 50px 0 30px;
+    width: 250px;
+  }
+
+  .mainbtn {
+    width: 80px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .leftmain {
+    padding: 20px;
+    font-size: 25px;
+  }
+
+  .mainintro,
+  .namemain {
+    font-size: 30px;
+  }
+
+  .paramain {
+    font-size: 12px;
+  }
+
+  .rightmain {
+    margin: 30px 0 20px;
+    width: 200px;
+  }
+
+  .mainbtn {
+    width: 80px;
+    padding: 8px;
+    
+  }
+}
