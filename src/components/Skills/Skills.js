@@ -6,7 +6,7 @@ import react from "./../../assests/react.png";
 
 const Skills = () => {
   return (
-    <section id="skills">
+    <section className="skills">
       <span className="heading">What I Do</span>
       <span className="skpara">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, vel

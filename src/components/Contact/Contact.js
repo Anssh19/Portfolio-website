@@ -18,12 +18,33 @@ const Contact = () => {
         <textarea  rows={5} className='msg' placeholder='Your Message' ></textarea>
       </form>
       <button className="submit" type='submit' value='send'>Submit</button>
+      <button className="submit" type='submit' value='send'>CallMe</button>
+
       <div  className="links">
-        <img src={linkedin} width={50} alt="link" className="link" />
-        <img src={github} width={50} alt="github" className="link" />
-        <img src={insta} width={50} alt="insta" className="link" />
-        <img src={x} width={50} alt="x" className="link" />
+        <div className="linkedin">
+          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">
+            <img src={linkedin} width={50} alt="link" className="link" />
+          </a>
+        </div>
+
+        <div className="github">
+          <a href="https://github.com" target="_blank" rel="noreferrer">
+            <img src={github} width={50} alt="github" className="link" />
+          </a>
+        </div>
         
+        <div className="insta">
+          <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
+            <img src={insta} width={50} alt="insta" className="link" />
+          </a>
+        </div>
+        
+        <div className="x">
+          <a href="https://www.twitter.com" target="_blank" rel="noreferrer">
+            <img src={x} width={50} alt="x" className="link" />
+          </a>
+        </div>
+       
         
       </div>
     </div>

@@ -21,7 +21,7 @@
 .contacthead {
   font-size: 60px;
   font-weight: 100;
-  padding-top: 6rem;
+  padding-top: 2rem;
   margin-bottom: 1rem;
   font-family: "Times New Roman", Times, serif;
 }
@@ -53,6 +53,7 @@
   width: 100px;
   padding: 15px;
   margin-top: 10px;
+  
 }
 
 .links {

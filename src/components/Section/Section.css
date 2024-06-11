@@ -61,6 +61,22 @@
   margin: 100px 0px 50px 10px;
 }
 
+.call{
+ height: 40px;
+ width: 40px;
+ background-color: white;
+ border-radius: 13px;
+ position: fixed;
+ bottom: 20px;
+ right: 20px;
+ z-index: 100;
+ transition: all 0.3s ease-in-out;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+.calls{
+  width: 23px;
+}
 /* Mobile responsive styles */
 @media (max-width: 768px) {
   .main {

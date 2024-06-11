@@ -1,6 +1,6 @@
 .navbar {
   background-color: rgb(46, 40, 40);
-  height: 5rem;
+  height: 4rem;
   width: 100vw;
   margin: 0 auto;
   padding: 1rem 2rem;
@@ -20,6 +20,7 @@
 .menulist {
   margin: 1rem;
   cursor: pointer;
+  color: white;
 }
 
 .menulist:hover {
